@@ -1,0 +1,254 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta property="og:title" content="Saudi Market Interview"><meta property="og:description" content="Six quick questions on B2B go-to-market in Saudi Arabia (MBA research)."><style>html{color-scheme:light dark}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>Saudi Market Interview</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: one narrow reading column, a sticky progress strip, six numbered questions, a send panel at the end. */
+:root{
+  --bg:#f6f7f4; --panel:#ffffff; --fg:#17201b; --muted:#5d6a63; --line:#d9ded9;
+  --accent:#0d6b45; --accent-ink:#ffffff; --accent-soft:#e3f1ea; --chip:#eef1ec;
+  --display:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121715; --panel:#1a211d; --fg:#eef2ee; --muted:#9fada5; --line:#2d3733;
+  --accent:#4cc48e; --accent-ink:#0d1a13; --accent-soft:#1d3327; --chip:#242d28; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121715; --panel:#1a211d; --fg:#eef2ee; --muted:#9fada5; --line:#2d3733;
+  --accent:#4cc48e; --accent-ink:#0d1a13; --accent-soft:#1d3327; --chip:#242d28; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:680px;margin:0 auto}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+p{margin:0}
+
+header{padding-block:40px 8px}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(30px,6vw,42px);line-height:1.08;font-weight:800;margin-top:10px;letter-spacing:-.01em}
+.intro{margin-top:18px;font-size:18px;color:var(--fg)}
+.intro .sig{display:block;margin-top:10px;color:var(--muted);font-style:italic}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:18px;color:var(--muted);font-size:15px}
+.meta span::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:8px;vertical-align:middle}
+
+.progress{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px;margin-top:22px;border-bottom:1px solid var(--line)}
+.progress .row{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--display);font-size:13px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+.bar{height:5px;background:var(--chip);border-radius:3px;margin-top:8px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);border-radius:3px;transition:width .35s ease}
+
+.q{padding-block:34px;border-bottom:1px solid var(--line);display:grid;gap:14px}
+.q:last-of-type{border-bottom:0}
+.num{font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.1em;color:var(--muted)}
+.q h2{font-size:22px;line-height:1.3;font-weight:700}
+.hint{color:var(--muted);font-size:16px;margin-top:-6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{appearance:none;border:1px solid var(--line);background:var(--chip);color:var(--fg);font:600 14px var(--display);padding:7px 12px;border-radius:999px;cursor:pointer;transition:background .15s,border-color .15s}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--fg)}
+.chip:focus-visible,textarea:focus-visible,input:focus-visible,.btn:focus-visible,.link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+textarea,input[type=text]{width:100%;min-width:0;border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:10px;padding:12px 14px;font:400 17px/1.5 var(--body);resize:vertical}
+textarea{min-height:96px}
+textarea::placeholder,input::placeholder{color:var(--muted);opacity:.8}
+.one-line{display:grid;gap:6px}
+.one-line label{font-family:var(--display);font-size:13px;font-weight:600;color:var(--muted)}
+
+.send{margin-top:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+.send h3{font-size:19px}
+.send p{color:var(--muted);margin-top:6px;font-size:16px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.btn{appearance:none;border:0;background:var(--accent);color:var(--accent-ink);font:700 15px var(--display);padding:12px 18px;border-radius:10px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.btn.alt{background:var(--chip);color:var(--fg);border:1px solid var(--line)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.out{margin-top:16px;display:grid;gap:10px}
+.out textarea{min-height:200px;font-size:15px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.toast{font-family:var(--display);font-size:14px;font-weight:600;color:var(--accent);min-height:20px}
+footer{margin-top:40px;color:var(--muted);font-size:14px;text-align:center}
+@media (prefers-reduced-motion:reduce){.bar i,.chip{transition:none}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">MBA research · Go-to-market in Saudi Arabia</div>
+  <h1>Six questions on selling B2B in Saudi</h1>
+  <p class="intro">Thanks for giving this ten minutes. I'm writing my MBA assignment on how B2B companies enter and grow in the Saudi market, and a view from inside it is worth more than any report I can buy. Short answers are perfect. I'll send you the summary when it's done.
+    <span class="sig">— Mahmoud Anwar</span></p>
+  <div class="meta"><span>6 questions</span><span>About 10 minutes</span><span>Your answers stay between us</span></div>
+</header>
+
+<div class="progress"><div class="row"><span id="pLabel">0 of 6 answered</span><span>Tap a few options, add a line if you like</span></div><div class="bar"><i id="pBar"></i></div></div>
+
+<form id="f" novalidate>
+<div class="one-line" style="padding-top:22px">
+  <label for="who">Your name and role (optional)</label>
+  <input type="text" id="who" placeholder="e.g. Khalid, Sales Director at …" autocomplete="off">
+</div>
+
+<section class="q" data-q="1">
+  <div class="num">QUESTION 1</div>
+  <h2>In the last two years, what changed the way B2B selling works in Saudi the most?</h2>
+  <div class="chips" data-for="a1">
+    <button type="button" class="chip">Vision 2030 giga-projects</button>
+    <button type="button" class="chip">Local content requirements</button>
+    <button type="button" class="chip">Regional HQ program</button>
+    <button type="button" class="chip">Etimad / digital procurement</button>
+    <button type="button" class="chip">Pricing pressure</button>
+    <button type="button" class="chip">More decision-makers per deal</button>
+  </div>
+  <textarea id="a1" placeholder="Anything else? One line is enough."></textarea>
+</section>
+
+<section class="q" data-q="2">
+  <div class="num">QUESTION 2</div>
+  <h2>When a foreign or regional company enters the market, what is the mistake you see repeated most?</h2>
+  <div class="chips" data-for="a2">
+    <button type="button" class="chip">Wrong local partner</button>
+    <button type="button" class="chip">Expecting a fast cycle</button>
+    <button type="button" class="chip">Pricing like Dubai</button>
+    <button type="button" class="chip">No Saudi face on the team</button>
+    <button type="button" class="chip">Ignoring local content rules</button>
+  </div>
+  <textarea id="a2" placeholder="What would you tell them on day one?"></textarea>
+</section>
+
+<section class="q" data-q="3">
+  <div class="num">QUESTION 3</div>
+  <h2>Is the local partner or agent still essential, or are companies going direct now that RHQ and licensing got easier?</h2>
+  <div class="chips" data-for="a3" data-single>
+    <button type="button" class="chip">Still essential</button>
+    <button type="button" class="chip">Less than before</button>
+    <button type="button" class="chip">Depends on the sector</button>
+    <button type="button" class="chip">Direct is the norm now</button>
+  </div>
+  <textarea id="a3" placeholder="Where does a partner still earn their margin?"></textarea>
+</section>
+
+<section class="q" data-q="4">
+  <div class="num">QUESTION 4</div>
+  <h2>With government and semi-government buyers, how long does a decision usually take, and what actually shortens it?</h2>
+  <p class="hint">Typical cycle, from first meeting to signed PO.</p>
+  <div class="chips" data-for="a4" data-single>
+    <button type="button" class="chip">Under 3 months</button>
+    <button type="button" class="chip">3–6 months</button>
+    <button type="button" class="chip">6–12 months</button>
+    <button type="button" class="chip">Over a year</button>
+  </div>
+  <textarea id="a4" placeholder="What shortens it? A sponsor inside, a pilot, a framework agreement…"></textarea>
+</section>
+
+<section class="q" data-q="5">
+  <div class="num">QUESTION 5</div>
+  <h2>What profile are you looking for in sales and BD people right now?</h2>
+  <div class="chips" data-for="a5">
+    <button type="button" class="chip">Saudi market experience</button>
+    <button type="button" class="chip">Regional GCC experience</button>
+    <button type="button" class="chip">Deep industry knowledge</button>
+    <button type="button" class="chip">Arabic + English</button>
+    <button type="button" class="chip">Based in KSA</button>
+    <button type="button" class="chip">Can relocate</button>
+  </div>
+  <textarea id="a5" placeholder="What separates the people who work out from the ones who don't?"></textarea>
+</section>
+
+<section class="q" data-q="6">
+  <div class="num">QUESTION 6</div>
+  <h2>If you could give one piece of advice to someone entering the Saudi market today, what would it be?</h2>
+  <textarea id="a6" placeholder="One sentence is fine."></textarea>
+</section>
+</form>
+
+<div class="send" id="send">
+  <h3>Send your answers</h3>
+  <p>One tap builds a message with everything above. Send it on WhatsApp or paste it into our LinkedIn chat.</p>
+  <div class="actions">
+    <button type="button" class="btn" id="build">Build my message</button>
+  </div>
+  <div class="out" id="out" hidden>
+    <textarea id="msg" readonly aria-label="Your answers as a message"></textarea>
+    <div class="actions">
+      <a class="btn" id="wa" href="#" target="_blank" rel="noopener">Send on WhatsApp</a>
+      <button type="button" class="btn alt" id="copy">Copy text</button>
+    </div>
+    <div class="toast" id="toast"></div>
+  </div>
+</div>
+
+<footer>Thank you. Your answers go into an MBA assignment only, with no names unless you say so.</footer>
+</div>
+
+<script>
+(function(){
+  // WhatsApp: leave empty to let the respondent pick the chat; set to a number in international format (no +) to open one chat directly.
+  var WA_NUMBER = '';
+  var QUESTIONS = [
+    'What changed B2B selling in Saudi most in the last two years?',
+    'The mistake new entrants repeat most',
+    'Local partner: still essential, or going direct?',
+    'Government decision cycle, and what shortens it',
+    'Profile wanted in sales / BD today',
+    'One piece of advice for someone entering now'
+  ];
+  var $ = function(s,r){ return (r||document).querySelector(s); };
+  var $$ = function(s,r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); };
+  var state = { who:'', chips:{}, text:{} };
+  try { var saved = JSON.parse(localStorage.getItem('ksa-interview')||'null'); if (saved) state = saved; } catch(e){}
+
+  // chips
+  $$('.chips').forEach(function(group){
+    var key = group.dataset.for, single = group.hasAttribute('data-single');
+    state.chips[key] = state.chips[key] || [];
+    $$('.chip',group).forEach(function(b){
+      b.setAttribute('aria-pressed', state.chips[key].indexOf(b.textContent)>-1 ? 'true':'false');
+      b.addEventListener('click', function(){
+        var on = b.getAttribute('aria-pressed')==='true';
+        if (single) { $$('.chip',group).forEach(function(o){ o.setAttribute('aria-pressed','false'); }); state.chips[key]=[]; }
+        if (!on) { b.setAttribute('aria-pressed','true'); state.chips[key].push(b.textContent); }
+        else { b.setAttribute('aria-pressed','false'); state.chips[key]=state.chips[key].filter(function(t){return t!==b.textContent;}); }
+        update();
+      });
+    });
+  });
+  // text
+  for (var i=1;i<=6;i++)(function(k){
+    var ta=$('#'+k); ta.value = state.text[k]||'';
+    ta.addEventListener('input', function(){ state.text[k]=ta.value; update(); });
+  })('a'+i);
+  var who=$('#who'); who.value=state.who||''; who.addEventListener('input',function(){ state.who=who.value; save(); });
+
+  function answered(n){ var k='a'+n; return (state.chips[k]&&state.chips[k].length) || (state.text[k]&&state.text[k].trim()); }
+  function save(){ try{ localStorage.setItem('ksa-interview', JSON.stringify(state)); }catch(e){} }
+  function update(){
+    var n=0; for (var i=1;i<=6;i++) if (answered(i)) n++;
+    $('#pLabel').textContent = n+' of 6 answered';
+    $('#pBar').style.width = (n/6*100)+'%';
+    save();
+  }
+  update();
+
+  function build(){
+    var lines = ['Saudi market interview — answers for Mahmoud'];
+    if (state.who && state.who.trim()) lines.push('From: '+state.who.trim());
+    lines.push('');
+    for (var i=1;i<=6;i++){
+      var k='a'+i, c=(state.chips[k]||[]), t=(state.text[k]||'').trim();
+      lines.push(i+'. '+QUESTIONS[i-1]);
+      if (c.length) lines.push('   • '+c.join(' · '));
+      if (t) lines.push('   '+t);
+      if (!c.length && !t) lines.push('   (skipped)');
+      lines.push('');
+    }
+    return lines.join('\n').trim();
+  }
+  $('#build').addEventListener('click', function(){
+    var m = build(); $('#msg').value = m; $('#out').hidden = false;
+    $('#wa').href = 'https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(m);
+    $('#toast').textContent = '';
+    $('#out').scrollIntoView({behavior:'smooth',block:'nearest'});
+  });
+  $('#copy').addEventListener('click', function(){
+    var ta=$('#msg'), done=function(){ $('#toast').textContent='Copied. Paste it into our chat.'; };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(ta.value).then(done, function(){ ta.focus(); ta.select(); $('#toast').textContent='Select the text above and copy it.'; });
+    else { ta.focus(); ta.select(); try{ document.execCommand('copy'); done(); }catch(e){ $('#toast').textContent='Select the text above and copy it.'; } }
+  });
+})();
+</script>
+</body></html>
